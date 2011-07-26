@@ -1,1 +1,1 @@
-Before using,change the server name,username and password in the connections.php file. 
+Before using,change the server name,username and password in the connections.php file. The username for the super-user is Pragyan and the password is 2011.
