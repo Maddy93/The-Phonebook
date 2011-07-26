@@ -1,0 +1,81 @@
+h1	{
+		color:white;
+		font-style:italic;
+	}
+body	{
+		color:yellow;
+		background-color:black;
+        font-family: cursive;
+	}
+th{
+    font-size:1.2em;
+    color:#9400d3;
+}
+p	{
+		color:red;
+	}
+input	{
+		background-color:#3cb371;
+		border:yellow;
+		color:blue;
+	}
+a	{
+		color:#9400d3;
+		text-decoration:none;
+    }
+
+a:hover	{
+		color:#3cb371;
+        }
+div a:hover {
+                font-size:1.25em;
+                font-style: italic;
+            }
+#button	{
+		color:black;
+		background-color:white;
+	}
+#button:hover	
+	{
+		background-color:#BDEDFF;
+	}
+td,th	{
+		padding:5px;
+	}
+#form	{
+		border:0px;
+	}
+table	{
+		border:2px solid #3cb371;
+		border-collapse:collapse;
+	}
+table	{
+		-webkit-animation:myfirst 2s;
+		-moz-animation:myfirst 2s;
+	}
+@-webkit-keyframes myfirst
+	{
+		0%	{margin-top:-100px;}
+		100%	{margin-top:0px;}
+	}
+@-moz-keyframes myfirst
+	{
+		0%	{margin-top:-100px;}
+		100%	{margin-top:0px;}
+	}
+div	{
+		-webkit-animation:second 2s;
+		-moz-animation:second 2s;
+	}
+@-webkit-keyframes second
+	{
+		0%	{margin-left:-100px;}
+		85%	{margin-left:25px;}
+		100%	{margin-left:0px;}
+	}
+@-moz-keyframes second
+	{
+		0%	{margin-left:-100px;}
+		85%	{margin-left:25px;}
+		100%	{margin-left:0px;}
+	}
