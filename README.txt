@@ -1,0 +1,1 @@
+Before using,change the server name,username and password in the connections.php file. 
