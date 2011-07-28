@@ -127,6 +127,9 @@ while($row=mysql_fetch_array($result))
 }
 ?>
 </table>
+<?php echo '<input type="submit" id="button" value="delete">';
+echo '</form>';
+?>
 <br />
 <div>
 <a href="add.php">add</a>
