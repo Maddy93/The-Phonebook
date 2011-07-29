@@ -122,7 +122,7 @@ while($row=mysql_fetch_array($result))
 	echo	"<td class='col5'>".$row['date_of_entry']."</td>";
 	echo	"<td class='col6'>".$row['day']."-".$row['month']."-".$row['year']."</td>";
 	echo	"<td class='col7'>"."<a href='edit2.php?cname=$row[name]'>"."edit".'</a>'."</td>";
-    echo    "<td class='col8'>"."<input type='checkbox' name='ckbox[]' value=$row[name]>"."</td>";
+    echo    "<td class='col8'>"."<input type='checkbox' name='ckbox[]' value='$row[name]'>"."</td>";
 	echo	"</tr>";
 }
 ?>
