@@ -132,7 +132,7 @@ while($row=mysql_fetch_array($result))
 	echo	"<td>".$row['username']."</td>";
 	echo	"<td>".$row['day']."-".$row['month']."-".$row['year']."</td>";
 	echo	"<td>"."<a href='edit2.php?cname=$row[name]'>"."edit".'</a>'."</td>";
-    echo    "<td>"."<input type='checkbox' name='ckbox[]' value=$row[name],$row[username]>"."</td>";
+    echo    "<td>"."<input type='checkbox' name='ckbox[]' value='$row[name],$row[username]'>"."</td>";
 	echo	"</tr>";
 }
 ?>
